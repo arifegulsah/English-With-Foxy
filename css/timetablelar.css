@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+	
+
+}
+
+body{
+	background-image: url('../images/c4.png');
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.yeniorta{
+	 display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.table{
+}
+
+#first {
+    float:left; /* add this */
+    	margin-right: 5px;
+
+}
+#second {
+	float: right;
+	margin-left: 5px;
+}
+
+.table{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+
+.table-container{
+	height: auto;
+	display: grid;
+	place-items: center;
+}
+
+table{
+		width: 100vh;
+
+	box-shadow: -1px 12px 12px -6px rgba(0, 0, 0, 0.5);
+}
+
+table, td, th{
+	padding: 10px;
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+td{
+	font-size: 18px;
+}
+
+th{
+	background-color: lightblue !important;
+	color: yellow;
+	text-transform: capitalize;
+}
+
+
+tr:nth-child(odd){
+	background-color: orange;
+}
+
+tr:nth-child(odd):hover{
+	background-color: orangered;
+	color: white;
+	transform: scale(1.1);
+	transition: transform 300ms ease-in;
+}
+
+tr:nth-child(even){
+	background-color: green;
+}
+
+tr:nth-child(even):hover{
+	background-color: lightgreen;
+	color: white;
+	transform: scale(1.1);
+	transition: transform 300ms ease-in;
+}
+
+.saatler{
+	color: white !important;
+	background-color: #F4CFDF !important;
+}
+
+.pazartesi{
+	color: #5784BA !important;
+	background-color: #B6D8F2 !important;
+	border: 2px solid white;
+}
+
+.sali{
+	color: #5784BA !important;
+	background-color: #F4CFDF !important;
+	border: 2px solid white;
+}
+
+.carsamba{
+	color: #5784BA !important;
+	background-color: #B6D8F2 !important;
+	border: 2px solid white;
+}
+
+.persembe{
+	color: #5784BA !important;
+	background-color: #F4CFDF !important;
+	border: 2px solid white;
+}
+
+.cuma{
+	color: #5784BA !important;
+	background-color: #B6D8F2 !important;
+	border: 2px solid white;
+}
+
+.baslik th{
+	color: white !important;
+}
+
+h1{
+	color: purple;
+}
+

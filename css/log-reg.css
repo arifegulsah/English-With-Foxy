@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: white !important;
+}
+
+.hero{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(..//images/a0.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.form-box{
+	background: rgba(58, 34, 37, 0.77);
+
+	width: 480px;
+	height: 580px;
+	position: relative; 
+	margin: 6% auto;
+	padding: 10px;
+	border-radius: 50px;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-box h1{
+	text-align: center;
+	padding-top: 5px;
+}
+
+.button-box{
+	width: 260px;
+	margin: 25px auto;
+	position: relative;
+	border-radius: 30px;
+}
+
+.toggle-btn{
+	padding: 14px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	color: #edf6d1 !important;
+	color: black !important;
+	font-size: 15px;
+	font-weight: 550;
+	transition: .5s;
+}
+
+.toggle-btn:hover{
+	background-position: right;
+	color: #fff !important;
+}
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 130px;
+	height: 100%;
+	background: linear-gradient(to right, #c2d57b, #52734d);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+	font-size: 17px !important;
+}
+
+.submit-btn{
+	width: 100%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background-image: linear-gradient(to right, #c2d57b, #52734d, #251917);
+	background-size: 200%;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	font-size: 18px !important;
+	font-weight: 600;
+	transition: .5s;
+	color: black !important;
+
+}
+
+.submit-btn:hover{
+	background-position: right;
+	color: #fff !important;
+}
+
+.check-box{
+	margin: 30px 10px 30px 0;
+	cursor: pointer;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.check-box span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+	line-height: 10% !important;
+}
+
+#login{
+	left: 100px;
+}
+
+#register{
+	left: 550px;
+}
+
+
+.goback2{
+	display: none;
+	margin:20px;
+	background: transparent;
+	color: #52734d;
+	color: rgba(58, 34, 37, 2) !important;
+	font-weight: 500;
+	border: 3px solid rgba(58, 34, 37, 0.77);
+	border-radius: 30px;
+	padding: 6px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: all ease-in 0.5s; 
+	position: absolute;
+	color: #fff !important;
+	background: #52734d;
+	border-color: #52734d;
+}
+
+
+.goback i{
+	font-size: 20px;
+}
+
+.goback{
+	margin:20px;
+	background: transparent;
+	color: #52734d;
+	color: rgba(58, 34, 37, 2) !important;
+	font-weight: 500;
+	border: 3px solid rgba(58, 34, 37, 0.77);
+	border-radius: 30px;
+	padding: 6px 20px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: all ease-in 0.5s;
+	position: absolute;
+}
+
+.goback:hover{
+	color: #fff !important;
+	background: #52734d;
+	border-color: #52734d;
+	font-size: 17.5px;	
+	transition: all ease-in 0.5s;
+}
+
+
+.goback:hover{
+	display: none;
+}
+
+.goback:hover + .goback2 {
+    display: block;
+    transition: all ease-in 0.5s; 
+}
+
+.goback:hover::after{
+	color: #52734d;
+	color: #fff !important;
+	background: transparent;
+	transition: all ease-in 0.5s; 
+}
+
+.goback2:hover::before{
+	color: #52734d;
+	color: #fff !important;
+	background: transparent;
+	transition: all ease-in 0.5s; 
+}
+
+.welcoming-text{
+	margin: 15px;
+}
+
+.welcoming-text h1{
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Montserrat' !important;
+}
+.welcoming-text img{
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.tilkiotur img{
+	max-width: 250px;
+	max-height:2150px;
+	position:fixed;
+    bottom:0px;
+    left:20%;
+}
+
+.tilkikalk img{
+	max-width: 250px;
+	max-height:2150px;
+	position:fixed;
+    top:0px;
+    right: 18%;
+}
+
+input[type="date"] { 
+  background: transparent;
+  color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+  background: black;
+  color: green;
+}
+
+.input-group h9{
+	font-size: 14px;
+	opacity: 0.5;
+}
