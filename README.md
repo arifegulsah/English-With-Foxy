@@ -2,4 +2,4 @@
 TÜBİTAK 2242 Proje Yarışması English With Foxy Web Sitesi
 
 
-![](/images/Animation.gif)
+![](images/Animation.gif)
