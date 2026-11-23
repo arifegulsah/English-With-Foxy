@@ -1,4 +1,4 @@
-**Repo orijinal tarihi:** 19.05.2022 – 19.05.2022
+**Repo orijinal tarihi:** 19.05.2022
 
 ---
 
